@@ -1,61 +1,61 @@
 skill,count
-scala,172
-python,158
-machine learning,154
-leadership,148
-teamwork,90
-generative ai,90
+scala,165
+machine learning,152
+python,151
+leadership,138
+teamwork,92
 communication,89
-data analysis,89
-sql,75
-aws,75
-mlops,61
-java,49
+data analysis,88
+generative ai,81
+sql,71
+aws,67
+mlops,54
 etl,47
-ci/cd,44
-problem solving,40
-azure,39
-go,37
+java,41
+azure,40
+ci/cd,40
+problem solving,35
+go,35
 kubernetes,31
-gcp,24
-statistics,23
-agile,23
-javascript,23
-docker,23
-computer vision,22
-r,22
+gcp,26
+computer vision,25
+statistics,25
+agile,24
+javascript,21
 postgresql,19
-pandas,18
-snowflake,17
-a/b testing,17
-numpy,16
+r,17
+numpy,17
+pandas,17
+docker,17
 typescript,16
+snowflake,15
+deep learning,15
 fastapi,15
-pytorch,14
-deep learning,14
-spark,14
-databricks,14
-linux,13
-nlp,12
-scikit-learn,12
-power bi,11
-github,11
-git,11
+a/b testing,14
+django,14
+nlp,13
+model deployment,12
+github,12
+power bi,12
+databricks,12
+kafka,12
 airflow,11
-tableau,10
-tensorflow,10
-model deployment,10
-kafka,10
-django,10
-project management,9
+tableau,11
+spark,11
+linux,11
+pytorch,10
+scikit-learn,10
+huggingface,9
 flask,9
-data warehouse,8
-feature engineering,7
-huggingface,7
-c++,7
-mongodb,7
-hadoop,6
+project management,8
+git,8
+data warehouse,7
+tensorflow,7
+dbt,6
+looker,6
+feature engineering,6
 swift,6
-c#,6
-kotlin,6
 bash,6
+mongodb,6
+mlflow,5
+reinforcement learning,5
