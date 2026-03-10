@@ -12,6 +12,13 @@ st.set_page_config(page_title="Pathfinder", page_icon="🎯", layout="wide")
 
 st.markdown("""
 <style>
+.stApp { background-color: #08090c !important; }
+.stApp > div { background-color: #08090c !important; }
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 
 html, body, [class*="css"] { font-family: 'Space Grotesk', sans-serif !important; }
@@ -363,7 +370,7 @@ else:
             </div>
             <div style="display:flex;flex-direction:column;align-items:flex-end;gap:10px;margin-left:16px">
               <div class="{score_cls}">{score}%</div>
-              <a href="{job.get('url','#')}" target="_blank" style="font-family:Space Mono,monospace;font-size:10px;padding:7px 14px;background:linear-gradient(135deg,#7c3aed,#ec4899);color:#fff;border-radius:9px;text-decoration:none;box-shadow:0 2px 12px rgba(124,58,237,0.35)">Apply →</a>
+              <a href="https://www.adzuna.in/search?q={job['title'].replace(' ', '+')}" target="_blank" style="font-family:Space Mono,monospace;font-size:10px;padding:7px 14px;background:linear-gradient(135deg,#7c3aed,#ec4899);color:#fff;border-radius:9px;text-decoration:none;box-shadow:0 2px 12px rgba(124,58,237,0.35)">Apply →</a>
             </div>
           </div>
         </div>
