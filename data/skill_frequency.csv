@@ -1,61 +1,61 @@
 skill,count
-scala,165
-machine learning,152
-python,151
-leadership,138
-teamwork,92
-communication,89
-data analysis,88
-generative ai,81
-sql,71
-aws,67
-mlops,54
-etl,47
-java,41
-azure,40
-ci/cd,40
-problem solving,35
-go,35
-kubernetes,31
-gcp,26
-computer vision,25
-statistics,25
-agile,24
-javascript,21
-postgresql,19
-r,17
-numpy,17
-pandas,17
-docker,17
-typescript,16
-snowflake,15
-deep learning,15
-fastapi,15
-a/b testing,14
-django,14
-nlp,13
-model deployment,12
-github,12
-power bi,12
-databricks,12
-kafka,12
-airflow,11
-tableau,11
-spark,11
-linux,11
-pytorch,10
-scikit-learn,10
-huggingface,9
-flask,9
-project management,8
-git,8
-data warehouse,7
-tensorflow,7
-dbt,6
+leadership,74
+teamwork,57
+communication,57
+scala,53
+python,47
+data analysis,43
+generative ai,32
+problem solving,31
+aws,30
+go,29
+sql,24
+machine learning,23
+ci/cd,23
+computer vision,19
+numpy,16
+pandas,16
+kubernetes,15
+javascript,15
+statistics,13
+java,12
+azure,12
+gcp,12
+docker,11
+agile,10
+typescript,10
+etl,9
+github,9
+project management,9
+tableau,8
+linux,8
+r,8
+scikit-learn,8
+postgresql,8
+a/b testing,7
+git,7
+data warehouse,6
+power bi,6
+spark,6
+nlp,6
 looker,6
-feature engineering,6
-swift,6
-bash,6
-mongodb,6
-mlflow,5
-reinforcement learning,5
+deep learning,6
+kafka,5
+bash,5
+model deployment,5
+snowflake,5
+pytorch,5
+airflow,4
+hadoop,4
+time series,4
+mlops,4
+databricks,4
+rust,4
+swift,4
+mongodb,3
+huggingface,3
+bigquery,3
+tensorflow,3
+reinforcement learning,3
+feature engineering,3
+flask,3
