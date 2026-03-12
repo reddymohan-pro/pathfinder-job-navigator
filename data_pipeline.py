@@ -7,10 +7,42 @@ from datetime import datetime
 # ─────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────
-import streamlit as st
-ADZUNA_APP_ID  = st.secrets.get("ADZUNA_APP_ID", "f14082e2")
-ADZUNA_APP_KEY = st.secrets.get("ADZUNA_APP_KEY", "a90e4e74c96464e54be17538c77eea93")
+import os
+try:
+    import streamlit as st
+    ADZUNA_APP_ID  = st.secrets.get("ADZUNA_APP_ID", "")
+    ADZUNA_APP_KEY = st.secrets.get("ADZUNA_APP_KEY", "")
+except Exception:
+    ADZUNA_APP_ID  = os.environ.get("ADZUNA_APP_ID", "")
+    ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY", "")
+```
 
+**Ctrl + S**
+
+---
+
+## Step 3 — Add secrets to GitHub
+
+Go to your GitHub repository:
+```
+https://github.com/reddymohan-pro/pathfinder-job-navigator
+```
+
+Click **Settings → Secrets and variables → Actions → New repository secret**
+
+Add these two secrets:
+- Name: `ADZUNA_APP_ID` — Value: your actual app id
+- Name: `ADZUNA_APP_KEY` — Value: your actual app key
+
+---
+
+## Step 4 — Update .gitignore
+
+We need to allow the data folder to be pushed by GitHub Actions. Open `.gitignore` and remove the `data/` line so it looks like:
+```
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
 
 
 DATA_DIR       = "data"
