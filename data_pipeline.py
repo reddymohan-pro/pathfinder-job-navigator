@@ -7,7 +7,6 @@ from datetime import datetime
 # ─────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────
-import os
 try:
     import streamlit as st
     ADZUNA_APP_ID  = st.secrets.get("ADZUNA_APP_ID", "")
@@ -15,38 +14,10 @@ try:
 except Exception:
     ADZUNA_APP_ID  = os.environ.get("ADZUNA_APP_ID", "")
     ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY", "")
-```
 
-**Ctrl + S**
-
----
-
-## Step 3 — Add secrets to GitHub
-
-Go to your GitHub repository:
-```
-https://github.com/reddymohan-pro/pathfinder-job-navigator
-```
-
-
-Add these two secrets:
-- Name: `ADZUNA_APP_ID` — Value: your actual app id
-- Name: `ADZUNA_APP_KEY` — Value: your actual app key
-
----
-
-## Step 4 — Update .gitignore
-
-We need to allow the data folder to be pushed by GitHub Actions. Open `.gitignore` and remove the `data/` line so it looks like:
-```
-.streamlit/secrets.toml
-__pycache__/
-*.pyc
-
-
-DATA_DIR       = "data"
-RAW_JOBS_PATH  = os.path.join(DATA_DIR, "raw_jobs.csv")
-LAST_UPDATED   = os.path.join(DATA_DIR, "last_updated.txt")
+DATA_DIR      = "data"
+RAW_JOBS_PATH = os.path.join(DATA_DIR, "raw_jobs.csv")
+LAST_UPDATED  = os.path.join(DATA_DIR, "last_updated.txt")
 
 # ─────────────────────────────────────────
 # HTML CLEANER
@@ -169,8 +140,6 @@ def fetch_adzuna_jobs():
                 jobs = response.json().get("results", [])
                 print(f"  Got {len(jobs)} — {search['label']} — '{keyword}'")
                 for job in jobs:
-                    salary_min = job.get("salary_min", None)
-                    salary_max = job.get("salary_max", None)
                     all_jobs.append({
                         "title":       clean_html(job.get("title", "")),
                         "company":     job.get("company", {}).get("display_name", ""),
@@ -179,8 +148,8 @@ def fetch_adzuna_jobs():
                         "level":       "",
                         "industry":    job.get("category", {}).get("label", ""),
                         "description": clean_html(job.get("description", "")),
-                        "salary_min":  salary_min,
-                        "salary_max":  salary_max,
+                        "salary_min":  job.get("salary_min", None),
+                        "salary_max":  job.get("salary_max", None),
                         "url":         job.get("redirect_url", ""),
                         "source":      "adzuna"
                     })
@@ -201,35 +170,28 @@ def run_pipeline():
 
     os.makedirs(DATA_DIR, exist_ok=True)
 
-    # Fetch from both sources
-    jobicy_jobs  = fetch_jobicy_jobs()
-    adzuna_jobs  = fetch_adzuna_jobs()
+    jobicy_jobs = fetch_jobicy_jobs()
+    adzuna_jobs = fetch_adzuna_jobs()
 
-    # Combine
     all_jobs = jobicy_jobs + adzuna_jobs
     df = pd.DataFrame(all_jobs)
 
-    # Deduplicate
     before = len(df)
     df.drop_duplicates(subset=["title", "company"], inplace=True)
     after = len(df)
     print(f"\nDeduplication: {before} → {after} jobs")
 
-    # Save
     df.to_csv(RAW_JOBS_PATH, index=False)
 
-    # Save timestamp
     with open(LAST_UPDATED, "w") as f:
         f.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
     print(f"\nSaved {len(df)} jobs to {RAW_JOBS_PATH}")
     print(f"\nCountry distribution:")
     print(df["country"].value_counts().to_string())
-    print(f"\nSource distribution:")
-    print(df["source"].value_counts().to_string())
     print(f"\nSalary data available: {df['salary_min'].notna().sum()} jobs")
 
     return df
 
 if __name__ == "__main__":
-    run_pipeline()  
+    run_pipeline()
