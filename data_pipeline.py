@@ -28,7 +28,6 @@ Go to your GitHub repository:
 https://github.com/reddymohan-pro/pathfinder-job-navigator
 ```
 
-Click **Settings → Secrets and variables → Actions → New repository secret**
 
 Add these two secrets:
 - Name: `ADZUNA_APP_ID` — Value: your actual app id
