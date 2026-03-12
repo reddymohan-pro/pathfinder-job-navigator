@@ -7,8 +7,11 @@ from datetime import datetime
 # ─────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────
-ADZUNA_APP_ID  = "f14082e2"
-ADZUNA_APP_KEY = "a90e4e74c96464e54be17538c77eea93"
+import streamlit as st
+ADZUNA_APP_ID  = st.secrets.get("ADZUNA_APP_ID", "f14082e2")
+ADZUNA_APP_KEY = st.secrets.get("ADZUNA_APP_KEY", "a90e4e74c96464e54be17538c77eea93")
+
+
 
 DATA_DIR       = "data"
 RAW_JOBS_PATH  = os.path.join(DATA_DIR, "raw_jobs.csv")
