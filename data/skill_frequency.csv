@@ -1,7 +1,7 @@
 skill,count
 leadership,74
-teamwork,57
 communication,57
+teamwork,57
 scala,53
 python,47
 data analysis,43
@@ -27,16 +27,16 @@ typescript,10
 etl,9
 github,9
 project management,9
-tableau,8
 linux,8
+tableau,8
 r,8
 scikit-learn,8
 postgresql,8
 a/b testing,7
 git,7
 data warehouse,6
-power bi,6
 spark,6
+power bi,6
 nlp,6
 looker,6
 deep learning,6
@@ -45,8 +45,8 @@ bash,5
 model deployment,5
 snowflake,5
 pytorch,5
-airflow,4
 hadoop,4
+airflow,4
 time series,4
 mlops,4
 databricks,4
