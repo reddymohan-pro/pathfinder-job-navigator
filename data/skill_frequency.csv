@@ -33,9 +33,9 @@ linux,8
 scikit-learn,8
 git,7
 postgresql,7
+data warehouse,6
 power bi,6
 spark,6
-data warehouse,6
 nlp,6
 looker,6
 deep learning,6
@@ -45,10 +45,10 @@ bash,5
 model deployment,5
 snowflake,5
 pytorch,5
-hadoop,4
 airflow,4
-mongodb,4
+hadoop,4
 time series,4
+mongodb,4
 mlops,4
 databricks,4
 kotlin,4
