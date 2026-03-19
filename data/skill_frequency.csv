@@ -1,61 +1,61 @@
 skill,count
-leadership,66
-teamwork,59
-communication,54
-scala,50
-python,47
-data analysis,41
-aws,35
-problem solving,33
-go,33
-generative ai,30
-sql,29
-ci/cd,24
-machine learning,23
-kubernetes,21
-computer vision,17
-javascript,16
-azure,14
-gcp,13
+leadership,44
+python,44
+teamwork,43
+scala,40
+communication,38
+problem solving,32
+sql,31
+data analysis,30
+go,27
+aws,27
+generative ai,24
+ci/cd,21
+kubernetes,20
+computer vision,18
+machine learning,18
+java,15
+javascript,15
+agile,13
+typescript,13
 etl,12
-docker,12
-java,12
-agile,12
-numpy,11
-pandas,11
-project management,10
-typescript,10
-r,9
-linux,9
-tableau,9
+docker,11
+gcp,10
+numpy,10
+pandas,10
+azure,9
 statistics,9
-github,8
+model deployment,8
+r,8
+project management,8
 git,8
-data warehouse,7
+linux,8
+tableau,7
+github,7
 postgresql,7
-spark,6
-power bi,6
-model deployment,6
-looker,6
-deep learning,6
-a/b testing,6
-bash,5
-nlp,5
-snowflake,5
+data warehouse,6
+kafka,6
+mysql,6
+looker,5
+a/b testing,5
 pytorch,5
-scikit-learn,5
-kafka,4
-airflow,4
-mongodb,4
-mlops,4
-mysql,4
+nlp,5
+mlops,5
+deep learning,5
+power bi,5
+tensorflow,4
+spark,4
+scikit-learn,4
 kotlin,4
-time series,3
+c#,4
 dbt,3
-huggingface,3
+snowflake,3
 bigquery,3
-tensorflow,3
-reinforcement learning,3
+time series,3
+mongodb,3
 feature engineering,3
-databricks,3
+redis,3
 scrum,3
+fastapi,2
+airflow,2
+reinforcement learning,2
