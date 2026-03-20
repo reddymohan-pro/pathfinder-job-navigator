@@ -1,61 +1,61 @@
 skill,count
-leadership,44
-python,44
-teamwork,43
-scala,40
-communication,38
-problem solving,32
-sql,31
-data analysis,30
+python,49
+leadership,48
+teamwork,46
+communication,41
+scala,37
+data analysis,34
+problem solving,34
+sql,33
 go,27
-aws,27
-generative ai,24
-ci/cd,21
-kubernetes,20
-computer vision,18
-machine learning,18
-java,15
-javascript,15
-agile,13
-typescript,13
-etl,12
-docker,11
+aws,26
+generative ai,23
+machine learning,19
+java,19
+ci/cd,18
+kubernetes,18
+computer vision,17
+javascript,16
+agile,14
+etl,13
+linux,13
+docker,12
+git,11
 gcp,10
-numpy,10
 pandas,10
-azure,9
+numpy,10
+typescript,10
+github,9
 statistics,9
-model deployment,8
-r,8
-project management,8
-git,8
-linux,8
-tableau,7
-github,7
-postgresql,7
-data warehouse,6
+project management,9
+tableau,8
+azure,8
+pytorch,7
+model deployment,7
+r,7
+bash,7
+mysql,7
+nlp,6
+tensorflow,6
 kafka,6
-mysql,6
+data warehouse,6
+c++,6
+scikit-learn,5
 looker,5
 a/b testing,5
-pytorch,5
-nlp,5
 mlops,5
-deep learning,5
 power bi,5
-tensorflow,4
-spark,4
-scikit-learn,4
+c#,5
+bigquery,4
+deep learning,4
+postgresql,4
 kotlin,4
-c#,4
 dbt,3
 snowflake,3
-bigquery,3
+spark,3
 time series,3
-mongodb,3
 feature engineering,3
-redis,3
+elasticsearch,3
 scrum,3
-fastapi,2
 airflow,2
-reinforcement learning,2
+fastapi,2
