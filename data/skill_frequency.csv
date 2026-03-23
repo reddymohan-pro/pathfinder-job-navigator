@@ -16,13 +16,13 @@ java,18
 computer vision,17
 kubernetes,17
 javascript,17
-agile,14
 etl,14
+agile,14
 linux,13
 docker,12
 azure,10
-numpy,10
 pandas,10
+numpy,10
 git,10
 typescript,10
 gcp,9
@@ -33,12 +33,12 @@ tableau,8
 mysql,8
 data warehouse,7
 pytorch,7
-kafka,7
 model deployment,7
+kafka,7
 r,7
 bash,7
-nlp,6
 tensorflow,6
+nlp,6
 c++,6
 scikit-learn,5
 looker,5
@@ -47,8 +47,8 @@ mlops,5
 power bi,5
 c#,5
 postgresql,5
-snowflake,4
 spark,4
+snowflake,4
 dbt,4
 deep learning,4
 kotlin,4
