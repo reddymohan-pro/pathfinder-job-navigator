@@ -1,61 +1,61 @@
 skill,count
-python,49
-leadership,48
+leadership,46
 teamwork,46
-communication,42
-scala,38
-data analysis,35
+python,46
+scala,40
+communication,38
 sql,35
-problem solving,34
-aws,26
-go,26
-generative ai,23
-machine learning,20
-ci/cd,19
-java,18
-computer vision,17
-kubernetes,17
+data analysis,35
+problem solving,33
+go,30
+aws,27
+generative ai,22
+ci/cd,21
+kubernetes,20
+java,20
+machine learning,19
+computer vision,18
+agile,17
 javascript,17
-etl,14
-agile,14
-linux,13
-docker,12
-azure,10
-pandas,10
-numpy,10
-git,10
-typescript,10
-gcp,9
-github,9
-statistics,9
-project management,9
-tableau,8
-mysql,8
-data warehouse,7
+etl,15
+docker,15
+github,13
+linux,12
+statistics,10
+gcp,10
+tableau,9
+git,9
+r,9
+data warehouse,8
+azure,8
+project management,8
+pandas,8
+numpy,8
 pytorch,7
 model deployment,7
-kafka,7
-r,7
+postgresql,7
+typescript,7
+c++,7
 bash,7
+mysql,7
+snowflake,6
+power bi,6
+looker,6
 tensorflow,6
 nlp,6
-c++,6
+kafka,6
+c#,6
+dbt,5
+bigquery,5
+spark,5
 scikit-learn,5
-looker,5
-a/b testing,5
 mlops,5
-power bi,5
-c#,5
-postgresql,5
-spark,4
-snowflake,4
-dbt,4
-deep learning,4
-kotlin,4
+scrum,4
+databricks,3
 airflow,3
-bigquery,3
+a/b testing,3
+deep learning,3
 time series,3
-mongodb,3
 feature engineering,3
+rust,3
 elasticsearch,3
-redis,3
