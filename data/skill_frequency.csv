@@ -1,61 +1,42 @@
 skill,count
-communication,53
-leadership,52
-scala,45
-teamwork,44
-sql,44
-python,42
-data analysis,32
-machine learning,31
-aws,25
-azure,21
-problem solving,20
-statistics,19
-etl,19
-kubernetes,19
-ci/cd,19
-agile,18
-r,17
-computer vision,14
-go,14
-postgresql,14
-gcp,14
-generative ai,13
-docker,13
-javascript,13
-java,12
-git,12
-a/b testing,11
-github,11
-data warehouse,10
-pytorch,8
-project management,7
-tableau,7
-tensorflow,7
-pandas,7
+python,10
+sql,8
+leadership,8
+computer vision,8
 numpy,7
-snowflake,7
-scrum,7
-linux,7
-mysql,7
-c#,7
-model deployment,6
-data lake,5
-kafka,5
-databricks,5
-nlp,5
-mlops,5
-bigquery,5
-typescript,5
-power bi,4
-spark,4
-scikit-learn,4
-dbt,4
-c++,4
-kotlin,4
-swift,4
-looker,3
-redis,3
-mongodb,3
-django,3
-fastapi,3
+pandas,7
+r,6
+machine learning,4
+generative ai,3
+matplotlib,2
+pytorch,2
+feature engineering,2
+problem solving,2
+data analysis,2
+scikit-learn,2
+mlops,2
+model deployment,2
+seaborn,2
+statistics,2
+scala,2
+tensorflow,2
+django,2
+communication,2
+postgresql,1
+kubernetes,1
+tableau,1
+ci/cd,1
+azure,1
+fastapi,1
+databricks,1
+kotlin,1
+swift,1
+teamwork,1
+git,1
+c++,1
+bash,1
+github,1
+linux,1
+docker,1
+go,1
+rust,1
