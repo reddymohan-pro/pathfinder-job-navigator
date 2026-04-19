@@ -1,42 +1,61 @@
 skill,count
-python,10
-sql,8
-leadership,8
-computer vision,8
-numpy,7
-pandas,7
-r,6
-machine learning,4
-generative ai,3
-matplotlib,2
-pytorch,2
-feature engineering,2
-problem solving,2
-data analysis,2
-scikit-learn,2
-mlops,2
-model deployment,2
-seaborn,2
-statistics,2
-scala,2
-tensorflow,2
-django,2
-communication,2
-postgresql,1
-kubernetes,1
-tableau,1
-ci/cd,1
-azure,1
-fastapi,1
-databricks,1
-kotlin,1
-swift,1
-teamwork,1
-git,1
-c++,1
-bash,1
-github,1
-linux,1
-docker,1
-go,1
-rust,1
+leadership,55
+communication,55
+teamwork,44
+sql,43
+python,42
+scala,42
+data analysis,32
+machine learning,30
+aws,21
+azure,21
+problem solving,21
+etl,19
+ci/cd,19
+statistics,19
+agile,18
+r,17
+kubernetes,17
+computer vision,14
+go,13
+git,13
+generative ai,13
+gcp,12
+postgresql,12
+docker,12
+github,11
+a/b testing,11
+javascript,11
+data warehouse,10
+numpy,9
+pytorch,9
+java,9
+pandas,8
+databricks,8
+tensorflow,8
+tableau,7
+scrum,7
+linux,7
+c#,7
+data lake,6
+project management,6
+model deployment,6
+snowflake,6
+c++,6
+mysql,6
+spark,5
+mlops,5
+scikit-learn,5
+bigquery,5
+power bi,4
+kafka,4
+nlp,4
+dbt,4
+redis,4
+typescript,4
+django,4
+deep learning,3
+looker,3
+mongodb,3
+kotlin,3
+swift,3
