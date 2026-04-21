@@ -1,61 +1,61 @@
 skill,count
-communication,54
-leadership,52
-sql,42
-teamwork,42
-python,41
-scala,41
-data analysis,31
-machine learning,30
-azure,21
-aws,21
+communication,56
+leadership,55
+teamwork,46
+scala,40
+sql,37
+python,36
+data analysis,28
+machine learning,28
+ci/cd,23
+kubernetes,22
 problem solving,21
-ci/cd,19
 statistics,19
-etl,18
-agile,18
 r,17
-kubernetes,17
-computer vision,13
-go,12
-gcp,12
-git,12
-generative ai,12
-postgresql,12
-a/b testing,11
+go,17
+etl,16
+aws,16
+azure,15
+generative ai,13
+computer vision,12
+git,11
+agile,11
+postgresql,11
 docker,11
-javascript,11
-github,10
-data warehouse,10
+gcp,10
+a/b testing,10
 numpy,9
+github,9
+data warehouse,9
 java,9
 pandas,8
 databricks,8
 pytorch,8
+javascript,8
 tensorflow,7
-scrum,7
+linux,7
 c#,7
 data lake,6
 project management,6
-tableau,6
 model deployment,6
-snowflake,6
-linux,6
-mysql,6
-spark,5
+tableau,5
 mlops,5
-c++,5
-power bi,4
-kafka,4
+snowflake,5
+scrum,5
+mysql,5
+spark,4
 scikit-learn,4
-dbt,4
 bigquery,4
-typescript,4
-redis,4
-django,4
+swift,4
+power bi,3
 deep learning,3
-nlp,3
-looker,3
+dbt,3
+c++,3
+redis,3
+django,3
 mongodb,3
 kotlin,3
-swift,3
+kafka,2
+nlp,2
+seaborn,2
+matplotlib,2
