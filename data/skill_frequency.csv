@@ -1,39 +1,37 @@
 skill,count
-python,12
+python,11
 leadership,9
 sql,9
 r,8
+computer vision,8
 numpy,8
 pandas,8
-computer vision,8
-machine learning,4
-problem solving,3
 generative ai,3
+problem solving,3
 scala,3
+machine learning,3
 kubernetes,2
-matplotlib,2
-tensorflow,2
-model deployment,2
-data analysis,2
 pytorch,2
-statistics,2
+matplotlib,2
 scikit-learn,2
-mlops,2
-feature engineering,2
+tensorflow,2
 seaborn,2
-django,2
-communication,2
-javascript,1
+data analysis,2
+feature engineering,2
+statistics,2
+mlops,2
+model deployment,2
 data wrangling,1
+javascript,1
 github,1
 java,1
-aws,1
 docker,1
-azure,1
-fastapi,1
-ci/cd,1
+aws,1
+communication,1
 databricks,1
-tableau,1
+django,1
 postgresql,1
-swift,1
-kotlin,1
+ci/cd,1
+tableau,1
+fastapi,1
+azure,1
