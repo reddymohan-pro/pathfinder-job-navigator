@@ -1,61 +1,61 @@
 skill,count
-leadership,62
-communication,61
-teamwork,59
+leadership,67
+communication,66
+teamwork,61
+sql,50
 scala,48
-sql,47
-python,42
-data analysis,40
-machine learning,33
-aws,24
-statistics,22
-problem solving,21
-go,21
-ci/cd,19
-generative ai,17
-snowflake,17
-etl,17
-agile,16
-tableau,14
-kubernetes,14
-dbt,13
+python,45
+data analysis,42
+machine learning,29
+problem solving,24
+go,24
+ci/cd,21
+aws,21
+statistics,20
+generative ai,16
+snowflake,16
+tableau,15
+kubernetes,15
+r,13
+agile,13
+azure,12
 a/b testing,12
-azure,11
-r,11
-java,11
-javascript,11
-power bi,10
-looker,9
+dbt,12
+typescript,12
+power bi,11
+etl,11
+docker,11
+looker,10
 git,9
-spark,9
-typescript,9
+java,9
 github,8
-data warehouse,8
 gcp,8
 kafka,8
-pytorch,7
+linux,8
+javascript,8
 project management,7
+redis,7
+spark,7
 bigquery,7
-docker,7
+c++,7
 postgresql,7
-deep learning,6
-tensorflow,6
 databricks,6
-linux,6
-c++,6
-airflow,5
+pytorch,6
+data warehouse,6
 data lake,5
-redis,4
-mlops,4
-nlp,4
+computer vision,5
+deep learning,5
+tensorflow,5
+mlops,5
+pandas,4
+airflow,4
+mysql,4
+rust,4
 scrum,3
-huggingface,3
 mlflow,3
-computer vision,3
-c#,3
+nlp,3
 bash,3
-pandas,2
+numpy,2
+huggingface,2
 mongodb,2
-kotlin,2
-mysql,2
-flask,2
+fastapi,2
