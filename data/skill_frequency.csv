@@ -1,61 +1,61 @@
 skill,count
-leadership,68
+leadership,70
 communication,63
-sql,59
-teamwork,58
-scala,54
-python,49
+sql,62
+teamwork,59
+scala,57
+python,55
 data analysis,41
-problem solving,28
-machine learning,28
-go,27
-agile,23
+machine learning,30
+problem solving,29
+go,28
+aws,26
+agile,24
+generative ai,23
+statistics,21
+tableau,19
 ci/cd,19
-generative ai,19
 kubernetes,19
-aws,19
-statistics,18
-tableau,16
-snowflake,15
-java,15
-javascript,15
-r,14
-azure,14
-a/b testing,13
-looker,13
-etl,13
+snowflake,18
+etl,17
+azure,17
+r,16
+looker,16
+java,16
+javascript,16
+dbt,14
+power bi,13
 docker,13
-dbt,12
+bigquery,12
+a/b testing,12
+computer vision,12
 git,11
-bigquery,10
-computer vision,10
-power bi,10
-redis,10
-typescript,10
-pytorch,9
-gcp,8
-kafka,8
+pytorch,10
+github,10
+linux,9
+gcp,9
+kafka,9
+tensorflow,8
+spark,7
 databricks,7
 pandas,7
-tensorflow,7
-github,7
+deep learning,7
 scrum,7
+redis,7
+mlops,7
+typescript,7
 postgresql,7
-linux,7
-project management,6
-deep learning,6
 data warehouse,6
-spark,6
-mlops,6
 airflow,5
-scikit-learn,5
+data lake,5
 c#,5
-mysql,5
-data lake,4
+model deployment,5
+scikit-learn,5
+project management,4
 numpy,4
+huggingface,4
 mongodb,4
-model deployment,4
-huggingface,3
+kotlin,4
+time series,3
 mlflow,3
 c++,3
-rust,3
