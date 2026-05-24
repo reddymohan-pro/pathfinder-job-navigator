@@ -1,61 +1,61 @@
 skill,count
-communication,65
-leadership,64
+leadership,65
+communication,64
 scala,59
-python,50
-sql,50
-teamwork,48
-data analysis,40
-go,31
+python,52
+sql,51
+teamwork,47
+data analysis,41
+machine learning,31
 aws,30
-machine learning,29
-generative ai,25
-problem solving,24
-azure,21
-ci/cd,19
-agile,19
-statistics,18
+go,30
+generative ai,23
+problem solving,23
+agile,21
+azure,20
+statistics,19
+ci/cd,18
+tableau,17
+etl,17
 looker,16
-tableau,16
-etl,16
+power bi,15
 snowflake,15
-gcp,15
 dbt,14
-kubernetes,13
+gcp,14
+java,13
+r,13
 github,12
-r,12
-power bi,12
 a/b testing,12
-javascript,11
-java,11
+kubernetes,12
+javascript,12
 bigquery,10
 pytorch,9
 linux,8
 git,8
 tensorflow,8
 computer vision,7
-mlops,7
 docker,7
+mlops,7
+huggingface,6
 c++,6
-rust,6
+kafka,5
+databricks,5
 deep learning,5
 scrum,5
 pandas,5
-huggingface,5
+model deployment,5
+typescript,5
+rust,5
 scikit-learn,5
+spark,4
 airflow,4
 data warehouse,4
-kafka,4
-typescript,4
-model deployment,4
-spark,3
 project management,3
-databricks,3
 redis,3
 mlflow,3
 postgresql,3
-swift,3
 kotlin,3
+swift,3
 time series,2
 data lake,2
 elasticsearch,2
